@@ -1,2 +1,2 @@
 # Javascript-Development
-Console.log("Namaste");
+console.log("Namaste");
