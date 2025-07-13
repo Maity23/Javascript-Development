@@ -1,4 +1,8 @@
-// Promise Chaining , to get rid of callback hell
+// Promise Chaining , to get rid of callback hell // readability is good with prmoises
+// Promise - why? 1. We can't rely on setTimout for interval for all async tasks.
+//  2 promises provide three satates pending, fulfill & reject
+//  3 promise is async -> triggers event loop.
+//  new Promise (cb(),res, rej) name doesn't matter but sequence matters. 
 function uploadFile(){
     return new Promise ((resolve , reject) =>{
         setTimeout (()=>{
